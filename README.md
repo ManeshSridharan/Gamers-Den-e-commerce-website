@@ -8,6 +8,23 @@ Gamers’ Den e-commerce website Is a website designed to sell gaming products s
 This project was done using HTML, CSS, JAVASCRIPT and PHP
 
 
+## How to run the code
+- Download the files 
+- Place the Gamers'_Den file under C:/ > xammp > htdocs
+- Replace the mysql file C:/ > xammp > mysql with the one you have downloaded if you never used XAMPP before
+
+  -If you have used it before and have other files in your mysql folder, place this folder under C:/ > xammp > mysql > data
+- Run your XAMPP from the XAMPP control panel 
+![image](https://user-images.githubusercontent.com/111338450/184835586-f364c388-3660-4a46-b14d-4a75894df72a.png)
+
+- Finally to run your code, in your web browser search localhost/Gamers'_Den/home.php
+
+
+
+
+
+
+
 ## Sample Output
 
 **Sign In Page:**  
