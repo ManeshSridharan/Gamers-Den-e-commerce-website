@@ -1,0 +1,346 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    align-items: center;
+}
+
+input[type=image]{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    align-items: center;
+}
+
+input[type=email], input[type=password] {
+    width: 94.5%;
+    padding: 15px;
+    margin: 10px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+/*Changes the colour of the text field when the field has been clicked*/
+input[type=email]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/*Changes the quantity selector's display colour*/
+input[type=number]{
+    width: 50px;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    background-color:#f1f1f1;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin-top: 35px;
+    background-color:lightgray;
+    color:black;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    /*Following 2 codes fixes footer to the bottom of the page*/
+    bottom: 0;
+    position: fixed;
+}
+
+li{
+    padding: 5px;
+    list-style-type: circle;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+a p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(100, 100, blue);
+}
+
+.navbar{
+    background-color: #ECECEC;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    height: auto;
+    text-align: center;
+    border-bottom: 3px solid black;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.signin {
+    color: darkgray;
+}
+
+.navbar a {
+    color: black;
+    padding: 25px 35px;
+    width: 125px;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    justify-content: center;
+}
+
+.row a{
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+}
+
+.products{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 1px 8px 0 rgba(160, 160, 160, 0.2);
+}
+
+.products a:hover{
+    border: 3px solid #356C99;
+    opacity: 1;
+    padding: 5px;
+}
+
+.pricing {
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+}
+
+.prod_details{
+    float:left;
+    padding: 10px;
+    margin-top: 35px;
+}
+
+.details{
+    float:right;
+    font-family: Helvetica, sans-serif;
+    margin-top: 35px;
+}
+
+/*Used to display the subheader in all details, checkout and account pages*/
+.fontsize{
+    font-size: 25px;
+}
+
+/*Displays the page title*/
+.pageTitle{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.prodrow{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.form{
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+}
+
+/*Creates the grid to display the Create Account and Sign In forms*/
+.acctForm{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/*Displays a card containing the Create Accout and Sign In form*/
+.acctCard{
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    color: black;
+    padding: 50px;
+    padding-right: 53px;
+    margin-top: 30px;
+    font-family: Helvetica, sans-serif;
+    box-shadow: 0px 1px 8px 0 rgba(160, 160, 160, 0.2);
+}
+
+.backimg{
+    background-image: url('./Images/gamers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signin{
+    text-align: center; 
+    color: rgb(80, 80, 80);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Styling for all the buttons used*/
+#cartBtn{
+    padding: 20px 8px;
+    width: 50px;
+}
+
+#signinBtn{
+    padding: 20px 8px;
+    width: 50px;
+}
+
+.detailsbtn{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+    padding: 13px 25px;
+    margin: 15px 3px;
+    font-size: 16px;
+}
+
+.detailsbtn:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.registerbtn {
+    background-color: navy;
+    color: white;
+    border-radius: 4px;
+    padding: 15px 15px;
+    margin: 40px 0px 30px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 15px;
+}
+  
+.registerbtn:hover {
+    color: black;
+    opacity: 1;
+}
+
+.logoutbtn{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 15px 15px;
+    margin: 40px 0px 30px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 15;
+}
+
+.logoutbtn:hover{
+    color: black;
+    opacity: 1;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Styling of table for checkout page*/
+#checkoutTable{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tableHead{
+    padding: 30px;
+}
+
+.cell{
+    padding: 10px 30px;
+}
+
+.lastRow{
+    font-weight: bold;
+    padding: 20px 30px;;
+}
+
+.purchasebtn{
+    background-color: darkgrey;
+    color: oldlace;
+    border-radius: 4px;
+    padding: 15px 15px;
+    margin-bottom: 60px;
+    border: none;
+    cursor: pointer;
+    height: 80px;
+    width: 40%;
+    opacity: 0.9;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.purchasebtn:hover{
+    color: black;
+    opacity: 1;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Styling of thank you page*/
+.container{
+    display: flex;
+    overflow: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    padding: 50px;
+    font-family: Helvetica, sans-serif;
+    box-shadow: 0px 1px 8px 0 rgba(160, 160, 160, 0.2);
+    background-color: #ECECEC;
+}
+
+.orderSuccess{
+    font-weight:bold;
+    font-size: 1.7em;
+}
+
