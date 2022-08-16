@@ -35,6 +35,11 @@ This project was done using HTML, CSS, JAVASCRIPT and PHP
 ![image](https://user-images.githubusercontent.com/111338450/184822029-76d5d371-2bef-4f25-8ee6-1ea320843fce.png)
 
 
+**Product Details Page:**
+
+
+![image](https://user-images.githubusercontent.com/111338450/184834283-19298608-91bd-4270-b3b6-f0105fb2c33b.png)
+
 
 ## Collaborators
 - [Ching Xuen](https://github.com/muchenthusiast)
